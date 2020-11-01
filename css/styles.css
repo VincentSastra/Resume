@@ -41,6 +41,33 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+/* MODIFIED */
+.skill-table {
+    margin-right: 10%;
+    table-layout: fixed;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 1rem !important;
+}
+
+.list-inline-item-img {
+    display: inline-block;
+    height: 50px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    filter: #808080; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+    opacity: 70%;
+
+    vertical-align: top;
+}
+
+.list-horizontal {
+    display: inline;
+}
+/* ENDMODIFIED */
+
 *,
 *::before,
 *::after {
